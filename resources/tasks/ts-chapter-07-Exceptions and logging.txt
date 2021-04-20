@@ -1,0 +1,28 @@
+JT-07 Exceptions and logging
+
+Study Exceptions and Errors management in Java. Learn key feature as exceptions hierarchy, stack trace, errors treatment,
+business custom exceptions, and keywords throw, throws, finally. How return works with exceptions handling.
+
+Study logging feature and exceptions format in Java and using third party libraries and SL4J. Take a look at Spring Boot
+exceptions logging features.
+
+Please use any good and reliable Java books, OCA/OCJP, Thinking in Java, Effective Java etc. Also use official or third
+party approved Java and Frameworks documentation Oracle, Baeldung, Spring, Hibernate etc.
+
+On topic for custom and business exceptions here is a useful link:
+https://www.quora.com/What-is-business-exception-in-java-How-it-differ-from-conventional-exception-in-java
+https://www.baeldung.com/java-new-custom-exception
+https://www.javatpoint.com/custom-exception
+
+
+*Install Postgres SQL, create a database with a table and populate with soma data.
+
+1. Create four different methods that will connect to Postgres DB and have try-catch blocks:
+	the first method will try to connect with a wrong address url,
+	the second one with try to connect with a wrong username,
+	the third one with try with wrong password,
+	the fourth connect with correct parameters and make a select request with JDBC from the table.
+2. Create a method which throws an exception.
+3. Implement custom exceptions classes which will handle the all four situations from step one.
+4. Add Java native logging to each exception handling mechanism and store in a log file.
+5. Create a class that throws few exceptions in different ways and logs the using SL4J library.

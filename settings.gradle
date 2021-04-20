@@ -1,0 +1,8 @@
+rootProject.name = 'java-training-alex-balan'
+include 'jt_01_git_commands'
+include 'jt_02_building_tools'
+include 'jt_03_java_fundamentals'
+include 'jt_04_java_collections'
+include 'jt_05_oop'
+include 'jt_06_clean_code'
+include 'jt_09_string_operations'

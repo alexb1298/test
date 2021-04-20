@@ -1,0 +1,38 @@
+Java 8 Features
+[Functional programming and lambda, predicates, Optional, null treatment and Exceptions, Streams and Collections etc]
+
+https://www.youtube.com/watch?v=t1-YZ6bF-g0
+https://stackify.com/streams-guide-java-8/
+
+Study Java 8 features and improvements over older language features recommended in chapter specifications.
+Please use official Oracle documentation, recommended Java books and reliable third party documentation companies.
+
+
+Practical Part
+
+I. Given a list of integer with elements from 1 to 16, use lambdas and streams:
+1.	Filter the elements divisible by 4 , after add 1 to the result. Print the list.
+2.
+    a. Filter the elements that are divisible by 2 or 3.
+    b. Create a string from the list in the next form: Aelement0B Aelement1B Aelement2B
+
+II. Given a list of words:
+1.	Print them with a space before
+2.
+    a.	Put “!” at the end of each word
+    b.	Replace “i” with  “eye”
+    c.	Make them uppercase
+    d.	Collect the result into a list
+3.
+    a.	Take the words that has the length <= 4
+    b.	Take the elements that contains “e”
+    c.	Take the first word from the result
+4.	Make a single String from the list using .reduce
+5.	Find the number of characters used in the list
+6.	Filter the list so it will contains only the elements that contains a single “h” . Use only stream functions.
+
+
+III. Demonstrate the usage of Optional class. Be creative!
+IV. Write examples of some more Java 8 features and strengthen your knowledge at this language level.
+
+Each point (1,2,3..) should represent a different stream.

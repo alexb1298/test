@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'alex'
+version '1.0'
+
+
+
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,39 @@
+JT-06 Clean Code and Refactoring
+
+
+Theory part:
+
+Get acquainted with book "Clean Code" by Robert C Martin, we really recommend to read it in nearest future.
+
+Study our project Clean code rules from: 
+"PMT-CleanCodeRules-180321-1650-48.pdf", 
+
+Find and study materials on clean code and code refactoring. 
+
+Here are some good links:
+https://youtu.be/7EmboKQH8lM
+https://youtu.be/2a_ytyt9sf8
+https://www.youtube.com/watch?v=8SMOB6k3hkM
+
+https://www.perforce.com/blog/vcs/really-save-time-code-refactoring
+https://www.linkedin.com/pulse/code-refactoring-best-practices-sheshadrinath-r
+
+
+Practical part:
+Clean and refactor your code according to Clean Code recommendations.
+
+1. Create several classes with methods that prove in practice all the best recommendations of Clean Code rules: class and
+ method names, comments, literals, code logic etc.
+2. Using clean code rules from pdf "PMT-CleanCodeRules-180321-1650-48.pdf", refactor and clean your code and improve your
+code quality on all the previous training chapters implementations and correct them according to the new studied rules.
+3. Using Idea "Inspect Code" tool test and fix your training project issues and possible bugs.
+4. Apply "DEP_IDEA_profile.xml" inspections profile in Idea. Rescan project again and clean all the issues.
+5. Install SonarLint and SonarQube Idea plugins and scan project for issues and fix them. Compare the inspections results.
+6. Make a comparison between all tools and come with a recommendations for best tools to keep code clean.
+7. For all next chapters scan and analyze code for issues and keep the project clean.
+
+
+Additional challenge: Try to install and configure SonarQube to your project on your local pc. Run test report on your
+code on issues and bugs and fix them.
+
+

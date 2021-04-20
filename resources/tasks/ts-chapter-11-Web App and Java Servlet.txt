@@ -1,0 +1,26 @@
+Web App and Java Servlet
+
+Key notions:
+Tomcat, Web containers, Web app and Servlets, WAR, EAR, JSP
+
+Study all key notions and concepts using reliable sources.
+
+Practical Part
+
+Create a To-Do List web application which has the following features:
+1. The user can check all the previously added to-do items which have a deadline and a short description, displayed in a list/table.
+2. The user can add new to-do items by clicking on the '+' button.
+3. The user can delete to-do items by clicking the 'Delete' button/icon near each to-do item.
+*Optional: display to-do items in descending order by deadline.
+
+- The application should have a simple but user-friendly UI styled with some basic CSS and should be deployed with Apache Tomcat.
+- For each feature implement separate endpoints that call a Java Servlet.
+- Store and display data in-memory using Java Collections, no database needed.
+- For the first feature provide some default data.
+- For the UI implementation use JSP and HTML pages.
+
+To download and configure Apache Tomcat server:
+https://tomcat.apache.org/
+https://www.tutorialspoint.com/servlets/index.htm
+
+The application should have user-friendly output, should be well organized, should respect Clean Code rules and handle errors.

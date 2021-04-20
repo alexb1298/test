@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'alex'
+version '1.0'
+
+apply plugin : 'application'
+mainClassName="subpackage/Computer"
+
+repositories {
+    mavenCentral()
+}
+
+
+test {
+    useJUnitPlatform()
+}

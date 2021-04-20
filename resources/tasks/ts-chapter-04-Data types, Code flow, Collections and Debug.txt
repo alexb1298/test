@@ -1,0 +1,37 @@
+Code flow, Collections and Debug 
+Theoretical Part:
+Read Subchapter “Understanding Data Types” 40-46 from OCP (pdf pages 96-..)
+https://www.javatpoint.com/collections-in-java
+http://tutorials.jenkov.com/java-collections/overview.html
+For the Decision-Making Statements in Java please search on your own.
+https://www.quora.com/What-is-the-difference-between-function-method-procedure-and-routines
+Debugging : https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html#stopping-debugger
+
+Practical Part
+
+1. Create a CoffeeMachine class with attributes (brand, model, price and few other properties)
+and methods (ring, makeCoffee, hasMilk, toString), then instantiate 5-8 CoffeeMachine objects.
+2. Create an array of CoffeeMachine objects.
+3. Transform the CoffeeMachine array into an ArrayList and try some ArrayList methods.
+4. Transform the CoffeeMachine ArrayList into a LinkedList and use LinkedList methods.
+5. Transform the CoffeeMachine LinkedList into a HashMap, using the CoffeeMachine objects' model
+as key and the object as value.
+6. Transform the HashMap into a HashTable.
+7. Transform the HashTable into a Set.
+8. Transform the Set into a TreeSet.
+9. Create 2 lists (different lists) and then compare: are they equal, common elements,
+additional elements, missing elements.
+10. Parse one of the list and print each element that has the price greater than 200.
+11. Print for each Coffee Machine from what category make part (using while on the list and use the switch)
+•	Low-cost category : price < 250
+•	Average category: price >=250  and price<=750
+•	High-cost category: price> 750
+12. Be creative and find a way to use break.
+13. Create a method which gets a List (or a Map) as parameter and returns the
+number of elements in the list/map.
+14. Implement a generic list with hash function, sort, equals.
+15. Instantiate different type of new List objects and call their methods.
+16. Transform the new List objects into Vector.
+17. Transform a TreeMap to new type List.
+
+Please make the output readable and self explanatory.

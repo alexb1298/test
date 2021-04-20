@@ -1,0 +1,50 @@
+Chapter 2 - IDE, Build Tools and external jar libraries
+
+[Idea, Maven, Gradle, Assembly, Zip and Jar Packages, Add 3rd party library to Idea and dependencies]
+
+Study materials:
+1.	https://www.youtube.com/watch?v=Nabjqv8KDgc&t=14s
+2.	https://www.baeldung.com/ant-maven-gradle (please remember this guy (his name: Eugen), he will help you in so many
+problems from now on)
+3.	https://gradle.org/maven-vs-gradle/
+
+How to create a multi-project build: https://docs.gradle.org/current/userguide/multi_project_builds.html
+https://docs.gradle.org/current/userguide/declaring_dependencies_between_subprojects.html
+
+
+Practical part:
+
+Project setup.
+Before you start the practical part, read careful about these tools and make sure you understand them, you can always
+search for more materials or ask us if you have questions.
+
+In your previous cloned repository create a gradle project in the folder that you cloned for the last Chapter
+
+In this project we will have a subproject for each chapter like:
+    java-training(this will be the root project)
+    	jt_02_building_tools
+    	jt_03_java_fundamentals
+
+
+Create a subproject with name: jt_02_building_tools.
+Also please create a subproject for first chapter and include commit changes. Further all chapter will represent
+subproject in structure described above.
+
+Programming task:
+1. Use a external 3rd party library from https://mvnrepository.com/repos/central repository. (Ex: apache-commons, class
+StringUtils)
+2. Install a library ( a jar file) from maven repository and add it to the project from the IDE and use it in code.
+3. Add a gradle dependency for external library from maven repository and use it in code.
+4. Commit changes on the branch jt_02_building_tools respecting branching and commit strategy and create a Merge Request
+and assign to Trainer for merge to develop. Only changes for case 3 (gradle dependency) is required.
+5. Make a demo to the trainer and demonstrate the working programs for the case 2 and 3.
+
+DOR/DOD:
+Theoretic part is studied, all notions from excel documents are understood.
+A discussion with trainer will clarify all notions and identify if chapter is ready to be taken in development.
+Development is done locally and code changes are pushed to separated branch according to branching strategies.
+Clean code, OOP and SOLID rules are applied and create a merge request for trainer to review. Trainer will open issues
+and threads to be fixed and code quality to be improved. When code is ready will be merged to develop branch and if the
+study is also finished the task for the chapter will gain status of DONE. Merge will be done with squash commits and
+commit message will be the chapter number with name, according to commit message format.
+

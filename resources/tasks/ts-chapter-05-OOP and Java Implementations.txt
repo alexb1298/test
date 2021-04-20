@@ -1,0 +1,74 @@
+OOP and Java Implementations
+
+Key notions:
+class, object, instance, constructor, access modifiers, interface, abstraction, encapsulation, inheritance, polymorphism
+
+
+Theoretic Study:
+
+ 1. Study OOP concepts on TutorialsPoint under Java Object Oriented chapter
+(https://www.tutorialspoint.com/java/java_inheritance.htm)
+and complete with additional material if needed, like Chapters 7-8-9 from book OCP Java SE 11
+    - Inheritance
+    - Overriding
+    - Polymorphism
+    - Abstraction
+    - Encapsulation
+    - Interfaces
+    - Packages
+
+
+
+Apply OOP concepts in following practice task:
+
+Task 1: Simple classes not using OOP features.
+According to Zoo class diagram:
+ 1.	Create classes Cat, Dog, Dove, Duck, Crab, Dolphin under zoo package each one with 3 constructors:
+    - without parameters
+    - two parameters
+    - three parameters;
+Methods will print a text message of and certain action that the animal does: ex: “The dog is running”.
+
+ 2.	In class Zoo, created outside of zoo package, in main method instantiate 3 objects and set all their fields with some values.:
+    - first object with 2 parameter constructor,
+    - second object with three parameter constructor and setters,
+    - third one with setters only.
+
+ 3.	Print all created objects fields using their getters.
+ 4.	Call all methods of each object.
+
+
+
+Task 2 : Implement and optimize using OOP features.
+According to Menagerie class diagram:
+ 1.	Create another new classes Cat, Dog, Dove, Duck, Crab, Dolphin under menagerie package each one with 3 constructors:
+    - without parameters
+    - two parameters
+    - three parameters;
+Methods will print a text message: ex: “The dog is running”.
+
+ 2.	All classes implements interfaces Walking, Running, Swimming, Flying and extends parent class Animal.
+
+ 3.	In class Menagerie, outside menagerie package, in main method instantiate 3 objects of each class and set all fields with some values:
+    - first with 2 parameter constructor,
+    - second with three parameter constructor and setters,
+    - third one with setters only.
+
+ 4.	Print all created objects fields using their getters.
+ 5.	Call all methods of each object.
+
+ 6.	Create a List of Animals and populate it with objects of Animal type.
+ 7.	Iterate the list and call properties and methods of each Animal object.
+
+ 8.	Create a List of Walking interface and populate it with objects of Walking type.
+ 9.	Iterate the list and call method walk of each object of Walking type.
+
+
+The code should be well organized using functions by common behavior, reuse code if possible, all fields and methods should have meaningful names and in camelCase, code style should be consistent throughout all classes.
+The output text should be well formatted, user friendly, easy to read and easy to understand the program functionality.
+
+DOR/DOD:
+Theoretic part is studied, all notions from excel documents are understood.
+A discussion with trainer will clarify all notions and identify if chapter is ready to be taken in development.
+Development is done locally and code changes are pushed to separated branch according to branching strategies.
+Clean code, OOP and SOLID rules are applied and create a merge request for trainer to review. Trainer will open issues and threads to be fixed and code quality to be improved. When code is ready will be merged to develop branch and if the study is also finished the task for the chapter will gain status of DONE. Merge will be done with squash commits and commit message will be the chapter number with name, according to commit message format.

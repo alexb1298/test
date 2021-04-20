@@ -1,0 +1,53 @@
+Java Fundamentals
+
+Key notions:
+JDK, JRE, JVM, package, Bytecode, Java args, batch execution parameters, cmd and bash OS migration, Class Loader, Garbage
+Collector
+
+Theoretic Study:
+
+ 1. Read Chapter 1 from OCP Java SE 11, answer the review questions
+ https://fortech.sharepoint.com/sites/um3.7/Shared%20Documents/Forms/AllItems.aspx?originalPath=aHR0cHM6Ly9mb3J0ZWNoLnNoYXJlcG9pbnQuY29tLzpmOi9zL3VtMy43L0VoM1ZOZUwwb0JoT3BDTWJMUG9pZENRQlJBLXRQeDJGLUpkRGZPalVLN2dZSHc%5FcnRpbWU9dEtGY1BnZnEyRWc&id=%2Fsites%2Fum3%2E7%2FShared%20Documents%2FTrainings%2FJava%20Training%202021%2FOCP%20Java%20SE%2011%20Programmer%20I%2Epdf&parent=%2Fsites%2Fum3%2E7%2FShared%20Documents%2FTrainings%2FJava%20Training%202021
+
+ 2. Study Class Loader and Garbage Collector
+ https://dzone.com/articles/java-virtual-machine-internals-class-loader
+ https://www.baeldung.com/jvm-garbage-collectors
+
+
+Practice:
+
+Task 1:
+ 1. Create classes Keyboard and Computer and populate with some fields, on Windows.
+ 2. Instantiate a Keyboard object in main method of Computer class.
+ 3. Print fields from Keyboard and Computer to console.
+ 4. Compile java classes using java from console.
+ 5. Run class Computer from command line using java.
+ 6. Copy .class files to Linux Ubuntu and run class Computer from bash.
+
+Task 2:
+ 1. Add classes to a package, compile and run them again from command line.
+ 2. Move java files to different folder and run them
+
+
+Task 3:
+ 1. Create a class Argument.
+ 2. Print all main method arguments.
+ 3. Read all arguments and check if entered argument ‘-c’ or ‘-d’ and print a message.
+ 4. Run class Argument with different command line arguments.
+
+
+Task 4:
+ 1. Run classes Computer and Argument (with system arguments) from IDE InteliJ Idea Community version.
+ 2. Create a program that executes a batch script
+ 3. Create a batch script that executes a java program with args and JVM parameters
+
+
+ DOR/DOD:
+ Theoretic part is studied, all notions from excel documents are understood.
+ A discussion with trainer will clarify all notions and identify if chapter is ready to be taken in development.
+ Development is done locally and code changes are pushed to separated branch according to branching strategies.
+ Clean code, OOP and SOLID rules are applied and create a merge request for trainer to review. Trainer will open issues
+ and threads to be fixed and code quality to be improved. When code is ready will be merged to develop branch and if the
+ study is also finished the task for the chapter will gain status of DONE. Merge will be done with squash commits and
+ commit message will be the chapter number with name, according to commit message format.
+

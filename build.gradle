@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id "org.sonarqube" version "3.0"
+}
+
+group 'alex'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+
+test {
+    useJUnitPlatform()
+}
+

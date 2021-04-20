@@ -1,0 +1,29 @@
+String operations, IO and work with files
+
+Key notions:
+String operations, Serialization, type conversion, string to int conversion, wrapper classes,
+regex, string format, File CRUD, Java IO, Java NIO, File libraries
+
+Study all key notions and concepts using reliable sources.
+
+Practical Part
+
+Create an application which has a really cool name and has the following features:
+
+1. Can read any text file from a resource folder which has filename in the following format: JT-chapterNr_resourceFile_nr.txt.
+2. Can find and count all the occurrences of each word in the text files and writes the results in a CSV file.
+3. Can inverse all sentences order in resource text files (sentence 1, 2, 3, 4 ... become 4, 3, 2, 1)
+and write the results to a new output text file which starts with the current date and time in RFC_1123_DATE_TIME format
+and ends with the current date and time in a custom format.
+4. Can find all the numbers in the resource files, parses them into their corresponding Wrapper classes form java.util package,
+populates a List with these numbers and adds it to the text file.
+
+- Each resource file should contain meaningful content - a short article with statistic data, a poem etc.
+- Read at least three different resource files.
+- The resource folder should have different sub-folders, read files recursively.
+- Use a regex to validate that filenames respect the naming format.
+- Each character sequence which ends with '.', '?', '!', '...', '?!' or ':' is considered a separate sentence.
+- Use Java IO, NIO and other file libraries like Tika for file CRUD operations.
+- Use StringBuilder, apache StringUtils, Date Time formatter, String Format etc to implement these features.
+
+The application should have user-friendly output, should be well structured, should respect Clean Code rules and handle errors.

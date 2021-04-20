@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+//the plugin for command run
+apply plugin : 'application'
+mainClassName="Main"
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+
+test {
+    useJUnitPlatform()
+}
